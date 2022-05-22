@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb16536d.css",
-    "main.js": "/static/js/main.5e55defa.js",
+    "main.css": "/static/css/main.3076fcf0.css",
+    "main.js": "/static/js/main.9f41310d.js",
     "static/js/937.cc77dee8.chunk.js": "/static/js/937.cc77dee8.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/fira-code-all-400-normal.woff": "/static/media/fira-code-all-400-normal.f040c6c2c35bd88d2ce8.woff",
@@ -12,13 +12,15 @@
     "static/media/fira-code-cyrillic-400-normal.woff2": "/static/media/fira-code-cyrillic-400-normal.7376f700e1511a7530df.woff2",
     "static/media/fira-code-greek-ext-400-normal.woff2": "/static/media/fira-code-greek-ext-400-normal.66e21b9f190babc3e194.woff2",
     "index.html": "/index.html",
-    "main.bb16536d.css.map": "/static/css/main.bb16536d.css.map",
-    "main.5e55defa.js.map": "/static/js/main.5e55defa.js.map",
+    "static/media/diamond_fill.svg": "/static/media/diamond_fill.ca57e67fc463bff41fa6a0138ce60038.svg",
+    "static/media/diamond.svg": "/static/media/diamond.4d5b34a7a8a40e9607b2a4301b20b730.svg",
+    "main.3076fcf0.css.map": "/static/css/main.3076fcf0.css.map",
+    "main.9f41310d.js.map": "/static/js/main.9f41310d.js.map",
     "937.cc77dee8.chunk.js.map": "/static/js/937.cc77dee8.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb16536d.css",
-    "static/js/main.5e55defa.js"
+    "static/css/main.3076fcf0.css",
+    "static/js/main.9f41310d.js"
   ]
 }
