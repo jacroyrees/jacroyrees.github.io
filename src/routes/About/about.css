@@ -1,0 +1,51 @@
+.home{
+background-color: #202124;
+width: 100vw;
+margin-top: 4rem;
+
+}
+.aboutHeader{
+  width: 100%;
+  
+  
+}
+
+#h1{
+  color:white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position:absolute;
+  font-size: 102px;
+  margin-left: 10%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  border: 5px solid #FFFF00;
+  left: 25%;
+  top:25%;
+  position: relative;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.left{
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+.right{
+  width: 40%;
+  float:left;
+  color:white;
+}
+.right p{
+  right: 25%;
+  margin-top: 25vh;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Fira Code', monospace;
+  border: 5px solid #FFFF00;
+  background-color: rgb(0, 0, 0, 0.2);
+}

@@ -1,0 +1,31 @@
+.sideNav{
+    height:100vh;
+    position: fixed;
+    width:32px;
+    display: table;
+    left: 5%;
+}
+
+.icons{
+    position:absolute;
+    
+    vertical-align: middle;
+    top:50%;
+    
+    margin-top: -208px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.icons > a > *{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    vertical-align: baseline;
+    
+}
+
+
+.icons > a > img:active{
+    opacity: 0.5;
+
+}
+
