@@ -1,0 +1,37 @@
+
+.h1{
+  color:white;
+
+  position:absolute;
+  font-size: 102px;
+  width: 50%;
+  left:25%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Fira Code', monospace;
+  text-align: center;
+  border: 5px solid #FFFF00;
+  text-align: center;
+  position: relative;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.portfolio{
+  background-color: #202124;
+  width: 100vw;
+  
+  
+  }
+
+  .cards{
+    width: 100%;
+  
+  }
+  .card-grid{
+    width: 100vw;
+    margin-left: 2vw;
+    background-color:  rgb(0, 0, 0, 0.2);
+  }
+
+  .grid-item{
+    width:25vw;
+  }

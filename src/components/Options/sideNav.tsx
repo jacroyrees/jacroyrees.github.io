@@ -1,7 +1,9 @@
 
+import { request } from 'https';
 import React, { useEffect } from 'react';
 import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
+import { domainToASCII } from 'url';
 import diamond from "../../assets/diamond.svg";
 import filledDiamond from "../../assets/diamond_fill.svg";
 import "./sideNav.css";
@@ -16,15 +18,17 @@ export default function SideNav(): ReactElement {
 
 
   const whichDiamond = () => {
+   
     return(
+      
     <>
-    <Link to={"/about"} onClick={() => setPage(pages.about)}><img src={page === pages.about ? filledDiamond : diamond} />
+    <Link to={"/about"} onClick={() => setPage(pages.about)}><img src={document.location.href.includes("about") ? filledDiamond : diamond} />
     </Link>
-    <Link to={"/resume"}  onClick={() => setPage(pages.resume)}><img src={page === pages.resume ? filledDiamond : diamond} />
+    <Link to={"/resume"}  onClick={() => setPage(pages.resume)}><img src={document.location.href.includes("resume") ? filledDiamond : diamond} />
     </Link>
-    <Link to={"/portfolio"} onClick={() => setPage(pages.portfolio)}><img src={page === pages.portfolio ? filledDiamond : diamond} />
+    <Link to={"/portfolio"} onClick={() => setPage(pages.portfolio)}><img src={document.location.href.includes("portfolio") ? filledDiamond : diamond} />
     </Link>
-    <Link to={"/contact"} onClick={() => setPage(pages.contact)}><img src={page === pages.contact ? filledDiamond : diamond} /></Link>
+    <Link to={"/contact"} onClick={() => setPage(pages.contact)}><img src={document.location.href.includes("contact") ? filledDiamond : diamond} /></Link>
     
     
     
